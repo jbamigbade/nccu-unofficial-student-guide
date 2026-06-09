@@ -1,0 +1,249 @@
+NCCU Mathematics and Physics Student Advice
+
+Professor: Dr. Solomon T. Abraham
+Role: Associate Professor
+
+Student Advice:
+Students recommend reviewing lecture notes after every class.
+Many students suggest practicing additional problems before exams.
+Office hours are helpful when preparing for major tests.
+
+--------------------------------------------------
+
+Professor: Dr. Igor Bondarev
+Role: Professor
+
+Student Advice:
+Students recommend focusing on conceptual understanding rather than memorization.
+Many students benefit from forming study groups.
+Reviewing examples discussed in class can improve exam performance.
+
+--------------------------------------------------
+
+Professor: Dr. Kinney H. Kim
+Role: Professor
+
+Student Advice:
+Students recommend completing homework early.
+Regular attendance helps students understand course expectations.
+Practice is essential for success.
+
+--------------------------------------------------
+
+Professor: Dr. Sung-Sik Kwon
+Role: Associate Professor
+
+Student Advice:
+Students recommend working practice problems daily.
+Office hours are useful for clarifying difficult concepts.
+Review notes within 24 hours after each lecture.
+
+--------------------------------------------------
+
+Professor: Dr. Hayk M. Melikyan
+Role: Professor
+
+Student Advice:
+Students recommend mastering definitions and theorems.
+Proof-based courses require consistent study habits.
+Reviewing previous lectures helps connect concepts.
+
+--------------------------------------------------
+
+Professor: Dr. Diane M. Markoff
+Role: Professor
+
+Student Advice:
+Students recommend taking detailed notes.
+Working through examples independently improves understanding.
+Many students recommend participating in class discussions.
+
+--------------------------------------------------
+
+Professor: Dr. Marvin H. Wu
+Role: Professor
+
+Student Advice:
+Students recommend asking questions whenever concepts become unclear.
+Study groups can help reinforce difficult topics.
+Start preparing for exams early.
+
+--------------------------------------------------
+
+Professor: Dr. Yongan Tang
+Role: Associate Professor
+
+Student Advice:
+Students recommend beginning projects well before deadlines.
+Keep organized notes throughout the semester.
+Review course materials consistently.
+
+--------------------------------------------------
+
+Professor: Dr. Alade O. Tokuta
+Role: Professor
+
+Student Advice:
+Students recommend practicing problems regularly.
+Many students benefit from attending office hours.
+Review homework solutions carefully.
+
+--------------------------------------------------
+
+Professor: Dr. Ravanasamudram N. Uma
+Role: Professor
+
+Student Advice:
+Students recommend maintaining a weekly study schedule.
+Work additional examples beyond assigned homework.
+Focus on understanding key concepts.
+
+--------------------------------------------------
+
+Professor: Dr. Caesar R. Jackson
+Role: Professor
+
+Student Advice:
+Students recommend attending every lecture.
+Class examples often help explain difficult topics.
+Stay current with assignments.
+
+--------------------------------------------------
+
+Professor: Dr. Kimberly Weems
+Role: Associate Professor
+
+Student Advice:
+Students recommend reading assigned material before class.
+Office-hour conversations can improve understanding.
+Keep track of all assignment deadlines.
+
+--------------------------------------------------
+
+Professor: Dr. Igor Filikhin
+Role: Research Professor
+
+Student Advice:
+Students interested in research should seek opportunities early.
+Research projects often require strong mathematical foundations.
+Developing programming skills can be beneficial.
+
+--------------------------------------------------
+
+Professor: Dr. Olumide T. Oni
+Role: Research Scientist
+
+Student Advice:
+Students interested in AI and research should build strong quantitative skills.
+Research experiences can strengthen graduate school applications.
+Learning data analysis tools can be valuable.
+
+--------------------------------------------------
+
+Professor: Dr. Richard Nappi
+Role: Physics Machine Shop Manager
+
+Student Advice:
+Students working on laboratory projects should learn proper equipment procedures.
+Safety protocols are important in laboratory environments.
+Hands-on experience can strengthen understanding.
+
+--------------------------------------------------
+
+Professor: Dr. Garrett Johnson
+Role: Assistant Professor
+
+Student Advice:
+Students recommend reviewing course materials regularly.
+Stay engaged during lectures.
+Seek help early when needed.
+
+--------------------------------------------------
+
+Professor: Dr. Hamest Gevorgyan
+Role: Lecturer
+
+Student Advice:
+Students recommend practicing consistently.
+Regular attendance helps reinforce concepts.
+Work through class examples independently.
+
+--------------------------------------------------
+
+Professor: Dr. Richard D. Townsend
+Role: Instructor
+
+Student Advice:
+Students recommend keeping a study calendar.
+Review material weekly rather than cramming.
+Ask questions whenever topics are confusing.
+
+--------------------------------------------------
+
+Professor: Dr. Olena Melnykova
+Role: Mathematics Instructor
+
+Student Advice:
+Students recommend completing all assigned practice work.
+Strong algebra skills help support future coursework.
+Study a little every day.
+
+--------------------------------------------------
+
+Professor: Dr. Melik Melikyan
+Role: Adjunct Instructor
+
+Student Advice:
+Students recommend reviewing lecture notes regularly.
+Stay organized throughout the semester.
+Use office hours whenever available.
+
+--------------------------------------------------
+
+Professor: Dr. Dana C. Sessoms
+Role: Adjunct Faculty
+
+Student Advice:
+Students recommend maintaining consistent study habits.
+Review examples discussed in class.
+Plan ahead for exams.
+
+--------------------------------------------------
+
+Professor: Dr. Leon B. Hardy
+Role: Director, Test Prep Program
+
+Student Advice:
+Students recommend taking practice tests under timed conditions.
+Review mistakes carefully after each practice session.
+Consistency is key to improvement.
+
+--------------------------------------------------
+
+General Mathematics Student Advice
+
+Students recommend:
+- Attending class regularly.
+- Using tutoring services when needed.
+- Forming study groups.
+- Starting homework early.
+- Visiting office hours.
+- Reviewing notes weekly.
+- Practicing mathematics daily.
+- Keeping track of assignment deadlines.
+- Preparing for exams several weeks in advance.
+- Using campus academic support resources.
+
+General Physics Student Advice
+
+Students recommend:
+- Understanding concepts before memorizing formulas.
+- Working through laboratory exercises carefully.
+- Practicing problem-solving consistently.
+- Reviewing class demonstrations.
+- Asking questions during labs.
+- Maintaining organized lab notes.
+- Preparing for exams early.
+- Forming study groups.
+- Seeking tutoring support when necessary.
+- Staying engaged during lectures.
