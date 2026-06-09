@@ -347,8 +347,13 @@ All implementation decisions, document collection, testing, evaluation, and fina
 
 Oluwaseyi (John) Bamigbade
 
+M.S. Mathematics
 North Carolina Central University
 
-M.S. Mathematics
-
 CodePath AI Engineering Program
+
+GitHub:
+https://github.com/jbamigbade
+
+Project Repository:
+https://github.com/jbamigbade/nccu-unofficial-student-guide
