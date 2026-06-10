@@ -312,6 +312,207 @@ Students can ask questions such as:
 * What professor advice is available?
 
 ---
+## Sample Chunks
+
+### Chunk 1
+Source: How_To_Change_Your_Major.txt
+
+Students wishing to change their major must complete the Change of Major form and obtain approval from the appropriate academic department before submitting the form to the Registrar's Office.
+
+---
+
+### Chunk 2
+Source: NCCU_Tutoring_Center.pdf
+
+The Academic Support Center provides tutoring services, supplemental instruction, academic coaching, and study skills workshops for NCCU students.
+
+---
+
+### Chunk 3
+Source: IAIER_Student_Experiences.txt
+
+The Institute for Artificial Intelligence and Equity Research (IAIER) provides students with opportunities to participate in AI research projects and professional development activities.
+
+---
+
+### Chunk 4
+Source: Residential_Life.pdf
+
+Residential Life supports student success through housing services, community engagement opportunities, and educational programming.
+
+---
+
+### Chunk 5
+Source: NCCU_Dining_Hall_Reviews.txt
+
+Students frequently mention that dining hall food quality varies by day, but appreciate the convenience and variety of meal options available on campus.
+
+
+## Retrieval Testing
+
+### Query 1
+
+Question:
+How do I register for classes at NCCU?
+
+Top Retrieved Sources:
+- How_To_Look_Up_Classes_Using_Banner.pdf
+- NCCU_Student_Handbook.pdf
+
+Why Relevant:
+These documents contain information regarding course search procedures and registration requirements.
+
+Result:
+Relevant chunks successfully retrieved.
+
+---
+
+### Query 2
+
+Question:
+What scholarships are available at NCCU?
+
+Top Retrieved Sources:
+- Student_Expenses.pdf
+- NCCU_Resources.pdf
+
+Why Relevant:
+These documents discuss financial aid and scholarship opportunities.
+
+Result:
+Relevant chunks successfully retrieved.
+
+---
+
+### Query 3
+
+Question:
+What is IAIER?
+
+Top Retrieved Sources:
+- IAIER_Student_Experiences.txt
+- NCCU_AI_Programs.pdf
+
+Why Relevant:
+Both documents directly discuss IAIER programs and student opportunities.
+
+Result:
+Relevant chunks successfully retrieved.
+
+
+## Grounded Generation
+
+The application uses Retrieval-Augmented Generation (RAG).
+
+The LLM receives:
+
+1. User question
+2. Retrieved NCCU document chunks
+
+The prompt explicitly instructs the model to answer using only retrieved context.
+
+If relevant information cannot be found, the model is instructed to indicate that the information is unavailable rather than generating unsupported answers.
+
+This approach reduces hallucinations and keeps responses grounded in NCCU resources.
+
+
+## Example Responses with Source Attribution
+
+### Example 1
+
+Question:
+How do I change my major?
+
+Answer:
+Students must complete a Change of Major form and obtain departmental approval before submitting it to the Registrar.
+
+Sources:
+- How_To_Change_Your_Major.pdf
+
+---
+
+### Example 2
+
+Question:
+What tutoring resources are available?
+
+Answer:
+Students can access tutoring services, supplemental instruction, and academic support through the Academic Support Center.
+
+Sources:
+- NCCU_Tutoring_Center.pdf
+
+
+
+## Out-of-Scope Query Example
+
+Question:
+What is the weather forecast for Durham tomorrow?
+
+System Response:
+
+I could not find information related to weather forecasts within the NCCU knowledge base.
+
+Assessment:
+
+The system correctly declined to answer because the information was not contained in the retrieved documents.
+
+
+## Query Interface
+
+The application uses a Gradio web interface.
+
+Input:
+- Natural language student question
+
+Output:
+- Grounded answer generated from retrieved NCCU resources
+
+Features:
+- Semantic search using ChromaDB
+- Retrieval-Augmented Generation
+- Suggested example questions
+- NCCU knowledge base statistics
+
+Example Interaction
+
+User:
+What is IAIER?
+
+System:
+IAIER is the Institute for Artificial Intelligence and Equity Research. It provides students opportunities to participate in AI research, professional development, and emerging technology initiatives.
+
+Source:
+IAIER Student Experiences
+
+
+## Failure Case Analysis
+
+Question:
+Which professor gives the most useful feedback?
+
+Expected Result:
+Information should come from professor reviews.
+
+Observed Result:
+The system occasionally retrieved general department information instead of professor review documents.
+
+Cause:
+Several professor review documents contained overlapping terminology with departmental resources. Semantic similarity occasionally favored department-level content over specific professor reviews.
+
+Future Improvement:
+Implement reranking and metadata filtering to prioritize professor review documents when professor-specific questions are asked.
+
+## Spec Reflection
+
+The planning document helped guide the design of the chunking strategy, retrieval pipeline, and evaluation framework before implementation began.
+
+One area where implementation diverged from the original plan was document volume. The initial plan targeted approximately 10 documents, but the final system expanded to 30 NCCU resources to improve coverage and retrieval quality.
+
+
+
+
+
 
 # Re-ingesting Documents
 
@@ -333,14 +534,44 @@ python app.py
 
 ---
 
-# AI Usage Statement
+## AI Usage
 
-AI tools were used to assist with planning, debugging, documentation, prompt engineering, and development support.
+### Example 1
 
-ChatGPT was used for brainstorming, troubleshooting, improving retrieval prompts, refining documentation, and evaluating system behavior.
+Task:
+Implementing the document ingestion and chunking pipeline.
 
-All implementation decisions, document collection, testing, evaluation, and final project integration were completed and reviewed by the project author.
+AI Assistance:
+ChatGPT was used to discuss chunking strategies and generate an initial implementation approach.
 
+Changes Made:
+The generated code was modified to support NCCU-specific documents and metadata structures.
+
+---
+
+### Example 2
+
+Task:
+Building the Retrieval-Augmented Generation pipeline.
+
+AI Assistance:
+ChatGPT helped explain ChromaDB retrieval workflows and prompt engineering techniques for grounded generation.
+
+Changes Made:
+Prompt instructions were customized to ensure answers remained focused on NCCU resources and student-generated content.
+
+---
+
+### Example 3
+
+Task:
+Documentation and evaluation.
+
+AI Assistance:
+ChatGPT was used to help organize evaluation results and improve README structure.
+
+Changes Made:
+All evaluation questions, testing procedures, screenshots, and final conclusions were reviewed and completed by the project author.
 ---
 
 # Author
